@@ -1,6 +1,6 @@
 /*
 ;--------------------------------------
-;Title: Modifiable LED Blink
+;Title: Light Intensity Meter
 ;--------------------------------------
 ; Program Details:
 ;--------------------------------------
