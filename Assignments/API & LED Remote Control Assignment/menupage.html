@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>IoT Project Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    :root{ --bg:#0b1324; --card:#111a33; --text:#e6ecff; --muted:#9fb3ff; }
+    *{ box-sizing:border-box }
+    body{ font-family:system-ui,Segoe UI,Roboto,Inter,Arial; margin:0; background:linear-gradient(135deg,#0b1324,#14264a); color:var(--text); }
+    .wrap{ max-width:880px; margin:40px auto; padding:0 20px; }
+    h1{ font-size:28px; margin:0 0 16px }
+    p.desc{ color:var(--muted); margin:0 0 24px }
+    .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px }
+    .card{ background:var(--card); border:1px solid rgba(255,255,255,.08); border-radius:14px; padding:16px; box-shadow:0 6px 18px rgba(0,0,0,.25) }
+    .card h3{ margin:0 0 8px; font-size:18px }
+    .card p{ margin:0 0 12px; color:var(--muted); font-size:14px; line-height:1.4 }
+    .card a{ display:inline-block; padding:10px 14px; border-radius:10px; text-decoration:none; background:#2d48ff; color:white; font-weight:600 }
+    .footer{ margin-top:26px; font-size:13px; color:var(--muted) }
+    code{ background:rgba(255,255,255,.06); padding:2px 6px; border-radius:6px }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>IoT Project – Menu</h1>
+    <p class="desc">Quick links to control pages and repo. (Folder: <code>/API</code>)</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>LED Control</h3>
+        <p>Buttons that write <code>LED1</code> state to <code>results.txt</code> via <code>write_state.php</code>.</p>
+        <a href="led.php">Open LED Page</a>
+      </div>
+
+      <div class="card">
+        <h3>RGB Control</h3>
+        <p>Slider writes a 0–255 value per channel (<code>r/g/b</code>) into <code>results.txt</code>.</p>
+        <a href="rgb.php">Open RGB Page</a>
+      </div>
+
+      <div class="card">
+        <h3>Slack IFTTT</h3>
+        <p>Event case message when button is pressed.</p>
+        <a href="https://app.slack.com/client/TGLDLN68Z/C04A8Q7DRC7" target="_blank" rel="noopener">View #iotdata channel updates</a>
+      </div>
+
+
+      <div class="card">
+        <h3>GitHub Repo</h3>
+        <p>Full project code: ESP, PHP.</p>
+        <a href="https://github.com/JuanAliRuiz/EE470-Internet-of-Things" target="_blank" rel="noopener">Open GitHub</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      Tip: If you move this page to the site root, update links to <code>/API/led.php</code>, etc.
+    </div>
+  </div>
+</body>
+</html>
