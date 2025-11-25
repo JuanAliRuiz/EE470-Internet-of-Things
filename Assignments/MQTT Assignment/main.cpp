@@ -28,7 +28,7 @@
 
 // TODO: change to your Wi-Fi credentials
 const char* ssid     = "AliAppleiPhone";
-const char* password = "Imaleechyes";
+const char* password = "(put actual password here)";
 
 // MQTT broker (HiveMQ public broker)
 const char* mqtt_server = "broker.hivemq.com";
