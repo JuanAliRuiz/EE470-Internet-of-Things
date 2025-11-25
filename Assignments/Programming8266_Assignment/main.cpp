@@ -25,7 +25,7 @@
 
 // --- user settings ---
 static const char* WIFI_SSID = "AliAppleiPhone";
-static const char* WIFI_PASS = "Imaleechyes";
+static const char* WIFI_PASS = "(change to password)";
 static String ENDPOINT = "https://juanaliruiz.com/db_insert_2.php";
 
 // --- pins ---
