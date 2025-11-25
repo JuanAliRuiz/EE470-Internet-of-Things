@@ -12,9 +12,9 @@ TOPIC       = "testtopic/temp/outTopic/PotentiometerAli"
 # MYSQL SETTINGS (Hostinger)
 # ---------------------------
 HOST     = "195.35.61.68"
-USER     = "u148378080_db_juanaliruiz"
-PASSWORD = "Jazmine03232018!"
-DATABASE = "u148378080_juanaliruiz"
+USER     = "username(replace with actual username)"
+PASSWORD = "password(replace with actual password)"
+DATABASE = "db(replace with actual database name)"
 
 # ------------------------------------------
 # DATABASE INSERT FUNCTION
