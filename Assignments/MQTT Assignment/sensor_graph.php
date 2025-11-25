@@ -1,9 +1,9 @@
 <?php
 // --- DB CONFIG ---
 $host     = "195.35.61.68";         
-$user     = "u148378080_db_juanaliruiz";
-$password = "Jazmine03232018!";
-$dbname   = "u148378080_juanaliruiz";
+$user     = "databaseusername(replace with actual name)";
+$password = "databasepasword(replace with actual password)";
+$dbname   = "dbname(replace with actual name)";
 
 // --- CONNECT ---
 $conn = new mysqli($host, $user, $password, $dbname);
