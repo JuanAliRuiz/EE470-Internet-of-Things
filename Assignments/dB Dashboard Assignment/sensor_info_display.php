@@ -1,9 +1,9 @@
 <?php
 // --- DATABASE CONNECTION --- //
 $servername = "127.0.0.1:3306";      // database host server IP address
-$username   = "u148378080_db_juanaliruiz";  // MySQL username
-$password   = "Jazmine03232018!";          // MySQL password
-$dbname     = "u148378080_juanaliruiz";    // database name
+$username   = "(change to actual username)";  // MySQL username
+$password   = "(change to actual password)";          // MySQL password
+$dbname     = "(change to actual db name)";    // database name
 
 $conn = new mysqli($servername, $username, $password, $dbname); // connect to MySQL
 
