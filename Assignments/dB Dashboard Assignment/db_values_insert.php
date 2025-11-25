@@ -2,9 +2,9 @@
 // --- DB CONNECT ---
 $servername = "127.0.0.1";
 $dbport     = 3306;
-$username   = "u148378080_db_juanaliruiz";
-$password   = "Jazmine03232018!";
-$dbname     = "u148378080_juanaliruiz";
+$username   = "(change to actual username)";
+$password   = "(change to actual pasword)";
+$dbname     = "(change to db name)";
 
 $conn = new mysqli($servername, $username, $password, $dbname, $dbport);
 if ($conn->connect_error) { http_response_code(500); die("DB connection failed"); }
