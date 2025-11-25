@@ -46,7 +46,7 @@
 
 // ---- WiFi & URL ----
 const char* WIFI_SSID = "AliAppleiPhone";
-const char* WIFI_PASS = "Imaleechyes";
+const char* WIFI_PASS = "(change to password)";
 
 
 // Server endpoints (NOTE: capital /API)
