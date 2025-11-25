@@ -15,7 +15,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 */
 
 
-$mysqli = new mysqli("127.0.0.1", "u148378080_db_juanaliruiz", "Jazmine03232018!", "u148378080_juanaliruiz", 3306);
+$mysqli = new mysqli("127.0.0.1", "(change to username)", "(change to password)", "(change to db name)", 3306);
 if ($mysqli->connect_error) { http_response_code(500); die("DB connect error"); }
 
 // Inputs (GET or POST)
